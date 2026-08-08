@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 fake = Faker('en_IN')
 
 driver = GraphDatabase.driver(
-    "neo4j+s://6cb04cfe.databases.neo4j.io",
-    auth=("6cb04cfe", "C1x7YXf_3-BbdiNktqVMOUvbXXfZ8LHgwfbDVMnvsPA")
+    "neo4j+s://61d8a9cb.databases.neo4j.io",
+    auth=("neo4j", "xjUj0qlmLEiHS5wMTlonX41VXJLlYZ7RZ7TDKkDFv9Y")
 )
 
 INDIAN_CITIES = [
